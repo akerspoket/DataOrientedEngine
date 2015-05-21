@@ -33,6 +33,9 @@
     <ClCompile Include="AdvancedContainer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="MemoryPoolManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine.h">
@@ -53,5 +56,19 @@
     <ClInclude Include="GlobalDefines.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MemoryPoolManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="DataOrientedEngine.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
